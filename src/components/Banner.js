@@ -10,7 +10,6 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
 
@@ -35,15 +34,11 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
       setDelta(500);
-    } else {
-      setIndex(prevIndex => prevIndex + 1);
     }
   }
 
@@ -59,7 +54,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Angel`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Front End" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a web developer with experience using Javascript, HTML, CSS and React JS. I have always been interested in technology and I have been making it part of my day to day for a couple of years. I focus on what I do and put all my energy into learning every day. after day.</p>
                   <Navbar.Brand href="https://docs.google.com/document/d/1ZLaPPga18oxVJpaNIX8Lr1LqXnUnU256m6UH2NdOT38/edit?usp=sharing"  target="_blank">   
-                  <button onClick={() => console.log('connect')}>Download CV <ArrowRightCircle size={25} /></button>
+                  <button >Download CV <ArrowRightCircle size={25} /></button>
                    </Navbar.Brand>
               </div>}
             </TrackVisibility>

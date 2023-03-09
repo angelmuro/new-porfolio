@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-CI= npm run build
-=======
-CI= npm run build
->>>>>>> d5d8a56d9b972e856ea813e913ecc8375594a29b
+CI=''
