@@ -50,7 +50,7 @@ export const NavBar = () => {
                 <a href="https://github.com/angelmuro" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Icon" /></a>
                 <a href="https://www.twitter.com/AngelGa93993994" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
               </div>
-              <Navbar.Brand href="https://wa.me/584145946063"  target="_blank">
+              <Navbar.Brand href="https://wa.me/51928181184"  target="_blank">
                 <button className="vvd"><span>Let’s Connect</span></button>
               </Navbar.Brand>
             </span>
