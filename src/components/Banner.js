@@ -54,7 +54,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Angel`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Front End" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a web developer with experience using Javascript, HTML, CSS and React JS. I have always been interested in technology and I have been making it part of my day to day for a couple of years. I focus on what I do and put all my energy into learning every day. after day.</p>
-                  <Navbar.Brand href="https://drive.google.com/file/d/1FN07PEhvQwOe6K61_up-aeJgbdNLzBaf/view?usp=sharing"  target="_blank">   
+                  <Navbar.Brand href="https://drive.google.com/file/d/17AF5PMmia23pP7MGj6zE3glXAXkVWap8/view?usp=drivesdk"  target="_blank">   
                   <button >Download CV <ArrowRightCircle size={25} /></button>
                    </Navbar.Brand>
               </div>}
